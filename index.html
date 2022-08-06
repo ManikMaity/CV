@@ -15,10 +15,29 @@
   <meta http-equiv="refresh" content="660">
   <!-- Viewport helps web to look good in any device -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
   <title>Manik's Site</title>
 </head>
 
 <body>
+    <button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
   <table cellspacing="20">
     <tr>
       <td> <img src="Image1\manik123.png" alt="Photo Of Manik" height="150" width="150"></td>
