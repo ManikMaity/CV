@@ -1,0 +1,28 @@
+body {
+  background-color: #94B49F;
+}
+
+hr {
+  border-color: #CEE5D0;
+  border-style: dotted none none none;
+  width: 5%;
+  border-width: thick;
+}
+
+h1 {
+  color: #125B50;
+}
+
+h3{
+  height: auto;
+  color: #005555;
+  background-color: #6D8B74;
+  font-family: Lucida Console;
+}
+a{
+  text-decoration: none;
+  color: #125B50;
+}
+a:hover{
+  color: #357C3C;
+}
